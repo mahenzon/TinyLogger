@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		168B94DD1F86B183007E15DF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168B94DC1F86B183007E15DF /* main.swift */; };
+		168B94E51F86B1F3007E15DF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168B94E41F86B1F3007E15DF /* Logger.swift */; };
+		168B94E71F88C201007E15DF /* DateToStringFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168B94E61F88C201007E15DF /* DateToStringFormatting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		168B94D91F86B183007E15DF /* TinyLogger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TinyLogger; sourceTree = BUILT_PRODUCTS_DIR; };
 		168B94DC1F86B183007E15DF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		168B94E41F86B1F3007E15DF /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		168B94E61F88C201007E15DF /* DateToStringFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToStringFormatting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,18 @@
 			isa = PBXGroup;
 			children = (
 				168B94DC1F86B183007E15DF /* main.swift */,
+				168B94E31F86B1DC007E15DF /* Model */,
 			);
 			path = TinyLogger;
+			sourceTree = "<group>";
+		};
+		168B94E31F86B1DC007E15DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				168B94E41F86B1F3007E15DF /* Logger.swift */,
+				168B94E61F88C201007E15DF /* DateToStringFormatting.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				168B94DD1F86B183007E15DF /* main.swift in Sources */,
+				168B94E51F86B1F3007E15DF /* Logger.swift in Sources */,
+				168B94E71F88C201007E15DF /* DateToStringFormatting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
